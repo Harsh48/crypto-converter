@@ -1,7 +1,14 @@
+import Header from "./components/Header";
+
 function App() {
 	return (
 		<>
-			<div></div>
+			<Header />
+			<main className="bg-slate-200 h-dvh">
+				<div className="w-11/12 max-w-screen-lg mx-auto h-full ">
+					Converter Form
+				</div>
+			</main>
 		</>
 	);
 }
